@@ -78,6 +78,7 @@ section.hero h1 {
   padding-left: 831px;
   padding-top: 210px;
 }
+
 section.hero h2 {
   font-weight: 400;
   font-size: 24px;
@@ -96,6 +97,7 @@ section.hero h2 {
   padding: 9px 25px;
   cursor: pointer;
 }
+
 .btn2 {
   background-color: #373a3c;
   font-weight: 400;
@@ -106,6 +108,7 @@ section.hero h2 {
   padding: 9px 25px;
   cursor: pointer;
 }
+
 .buttons {
   padding-bottom: 206px;
   margin-left: 831px;
@@ -121,6 +124,7 @@ section.The_best_value .xbox {
   display: flex;
   padding-top: 84px;
 }
+
 section.The_best_value h1 {
   font-weight: 400;
   font-size: 48px;
@@ -188,6 +192,58 @@ section.The_best_value .image {
 
 section.The_best_value .image img {
   padding-top: 53px;
+}
+
+
+/* exclusive */
+section.exclusive h1 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #373a3c;
+  text-align: center;
+}
+
+
+
+section.exclusive .card .btn {
+  background-color: #8dd83d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #fff;
+  padding: 19px 99px;
+  border: none;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 23px;
+}
+
+section.exclusive .card .btn a{
+  text-decoration: none;
+  color: #fff;
+}
+
+section.exclusive .card h3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #435766;
+  padding-left: 21px;
+  padding-top: 23px;
+  padding-bottom: 16px;
+}
+
+
+section.exclusive .card p {
+  font-weight: 400;
+  font-size: 21px;
+  color: #435766;
+  padding-left: 21px;
+  padding-bottom: 45px;
+}
+
+section.exclusive .card img{
+  display: flex;
+  margin: 0 auto;
 }
 
 /* footer */
