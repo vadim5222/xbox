@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* шапка */
+
+header {
+  background-color: #373a3c;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  align-items: center;
+}
+
+.games {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.My_Xbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.head input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #435766;
+}
+
+.head input {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 125px;
+  border-radius: 5px;
+}
+
+/* hero */
+
+section.hero {
+  background-image: url(img/hero.png);
+}
+
+section.hero h1 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  padding-left: 831px;
+  padding-top: 210px;
+}
+section.hero h2 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 831px;
+  padding-bottom: 157px;
+}
+
+.btn1 {
+  background-color: #8dd83d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #fff;
+  border: none;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: #373a3c;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #fff;
+  border: none;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.buttons {
+  padding-bottom: 206px;
+  margin-left: 831px;
+}
+
+/* The best value */
+section.The_best_value {
+  background-color: #979797;
+}
+
+section.The_best_value .xbox {
+  margin: 0 auto;
+  display: flex;
+  padding-top: 84px;
+}
+section.The_best_value h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+}
+
+section.The_best_value h2 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+
+section.The_best_value h3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #435766;
+  padding-top: 23px;
+  padding-left: 22px;
+  padding-bottom: 13px;
+}
+
+section.The_best_value p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #435766;
+  padding-left: 22px;
+  padding-bottom: 38px;
+}
+
+section.The_best_value .card .btn {
+  background-color: #8dd83d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #fff;
+  padding: 19px 23px;
+  border: none;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 23px;
+}
+
+section.The_best_value .card img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  gap: 64px;
+  margin-top: 42px;
+  padding-bottom: 162px;
+}
+
+.card {
+  border: 1px solid #8dd83d;
+  background-color: #fff;
+}
+
+section.The_best_value .image {
+  height: 180px;
+}
+
+section.The_best_value .image img {
+  padding-top: 53px;
+}
+
+/* footer */
+
+footer {
+  background-color: #435766;
+}
+
+.columns {
+  display: flex;
+  gap: 275px;
+}
+
+footer .developers ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+footer .XBOX ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+footer ul a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+.follow_us .icons ul {
+  display: flex;
+  gap: 20px;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #7dd42f;
+  padding-bottom: 34px;
+  padding-top: 58px;
+}
+
+footer .under {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .under p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+hr {
+  border-radius: 4px;
+  width: 1400px;
+  background: #252626;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* ВТОРАЯ СТРАНИЦА */
+
+section.hero_call_of_duty {
+  background-image: url(img/CoD-WWII.png);
+}
+
+section.hero_call_of_duty h1 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  padding-left: 831px;
+  padding-top: 210px;
+}
+
+section.hero_call_of_duty .btn2 {
+  background-color: #7dd42f;
+}
+
+section.hero_call_of_duty h2 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 831px;
+  padding-bottom: 157px;
+}
+
+/* Call_of_Duty_WWII */
+section.Call_of_Duty_WWII h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  color: #435766;
+  padding-top: 99px;
+  padding-bottom: 205px;
+}
+
+.video {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.content {
+  display: flex;
+  gap: 126px;
+}
+
+.content p {
+  font-weight: 400;
+  font-size: 36px;
+  color: #435766;
+}
